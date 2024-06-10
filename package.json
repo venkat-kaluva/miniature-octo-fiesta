@@ -1,0 +1,25 @@
+{
+  "name": "app-spike",
+  "version": "0.0.1",
+  "description": "Spiking with fluent again",
+  "license": "UNLICENSED",
+  "contributors": [],
+  "type": "module",
+  "scripts": {
+    "build": "now-sdk build -e",
+    "deploy": "now-sdk deploy",
+    "fetch": "now-sdk fetch -e"
+  },
+  "now": {
+    "scope": "x_snc_spikesdl",
+    "scopeId": "30ce27c9ee9345209cd8c930e0b0f8e2",
+    "sourceDir": ""
+  },
+  "devDependencies": {
+    "@servicenow/client-types": "*",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "24.0.19",
+    "@servicenow/glide": "^25.0.3",
+    "@servicenow/sdk-core": "24.0.19",
+    "eslint": "8.50.0"
+  }
+}
